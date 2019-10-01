@@ -40,7 +40,9 @@ Empirical stationary distributions to be used with other software packages as
 described in the paper.
 
 * EDCluster
-EDCluster method to estimate empirical stationary distributions.
+EDCluster method to estimate empirical stationary distributions. This is the
+version as it was used for getting the results of the paper. EDCluster is
+maintained in a[[https://github.com/dschrempf/EDCluster][separate repository]].
 
 * ParametricBootstrap
 Results of parametric bootstrap analysis.
