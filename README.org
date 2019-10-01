@@ -1,0 +1,57 @@
+This repository includes supplementary data for the paper "Scalable empirical
+mixture models that account for across-site compositional heterogeneity" by
+Dominik Schrempf, Nicholas Lartillot, and Gergely Szöllősi.
+
+#+NAME: Tree
+#+BEGIN_SRC sh :exports results :results output verbatim
+tree -d .
+#+END_SRC
+
+#+RESULTS: Tree
+#+begin_example
+.
+├── DataSetSpecificDistributions
+│   ├── Microsporidia
+│   ├── Nematodes
+│   └── Platyhelminths
+├── Distributions
+├── EDCluster
+├── ParametricBootstrap
+│   ├── Microsporidia
+│   ├── Nematodes
+│   └── Platyhelminths
+├── SiteDistributions
+│   ├── Le2008_HOGENOM
+│   └── Le2008_HSSP
+├── TreesDataSets
+│   ├── Microsporidia
+│   ├── Nematodes
+│   └── Platyhelminths
+└── TreesSimulationStudy
+
+14 directories
+#+end_example
+
+* DataSetSpecificDistributions
+Results of data set specific empirical distribution mixture models created by EDCluster.
+
+* Distributions
+Empirical stationary distributions to be used with other software packages as
+described in the paper.
+
+* EDCluster
+EDCluster method to estimate empirical stationary distributions.
+
+* ParametricBootstrap
+Results of parametric bootstrap analysis.
+
+* SiteDistributions
+Site distributions of the HOGENOM autocite:Dufayard2005 and the HSSP
+ autocite:Schneider1997 databases inferred by CAT+Poisson
+ autocite:Lartillot2004,Felsenstein1981.
+
+* TreesDataSets
+Inferred trees of the three analyzed data sets.
+
+* TreeSimulationStudy
+Inferred trees of the simulation study inspired by the microsporidia data set.
