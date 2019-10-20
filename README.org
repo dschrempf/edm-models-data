@@ -1,3 +1,5 @@
+For your reference, please see and cite the [[https://www.biorxiv.org/content/10.1101/794263v1][preprint uploaded to bioRxiv.]]
+
 This repository includes supplementary data for the paper "Scalable empirical
 mixture models that account for across-site compositional heterogeneity" by
 Dominik Schrempf, Nicholas Lartillot, and Gergely Szöllősi.
